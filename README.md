@@ -34,7 +34,7 @@ The dataset was split into training and test sets, and three models were tested:
 - **Support Vector Regression (SVR)**
 - **Decision Tree**
 
-Based on the RMSE scores, the Support Vector Regression model was selected as it yielded the lowest RMSE score of `0.000218305666992898`.
+Based on the RMSE scores, the Support Vector Regression model was selected as it yielded the lowest RMSE score of `0.218305666992898`.
 
 ## Prediction and Visualization
 A scenario was assumed where the temperature increases by 5 degrees over the next 10 years. This modified dataset was used with the SVR model to predict future energy usage. Predictions were scaled by the square footage of the properties.
@@ -44,4 +44,4 @@ The visualization, titled "Hourly Sum of Predicted Energy Usage," shows energy u
 ## Conclusion
 The analysis provides actionable insights for eSC to mitigate the risks associated with increased electricity demand. The prediction model, validated through robust processes including cross-validation and split-sample testing, offers reliable forecasts that can help eSC prepare for future energy demands.
 
-The RMSE score of `0.000218305666992898` further supports the credibility of the model, ensuring minimal error in predictions.
+The RMSE score of `0.218305666992898` further supports the credibility of the model, ensuring minimal error in predictions.
